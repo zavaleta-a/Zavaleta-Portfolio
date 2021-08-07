@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #5d5c61;
 }
 
 /* Make sure to add color to your text */
@@ -53,4 +54,17 @@ img {
     top: 75px;
     left: 50px;
     font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    border: white;
+}
+
+.flex-container a {
+    width: auto;
+    margin: 5px;
+    line-height: auto;
 }
