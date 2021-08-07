@@ -4,6 +4,25 @@
 
 /* Make sure to add color to your text */
 
+.topnavigationbar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color: whitesmoke;
+    padding: 5px 15px;
+    background-color: #b1a296;
+    overflow: hidden;
+}
+
+.topnavigationbar a {
+    color: whitesmoke;
+}   
+.topnavigationbar a:hover {
+   background-color: white;
+   color: black;
+}
+
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -27,7 +46,7 @@ img {
 .topleft {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    top: 45px;
+    top: 75px;
     left: 50px;
     font-size: 50px;
 }
