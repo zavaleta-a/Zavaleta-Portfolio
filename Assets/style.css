@@ -17,7 +17,10 @@
 }
 
 .topnavigationbar a {
+    float: right;
+    display: block;
     color: whitesmoke;
+    text-align: center;
     padding: 5px;
     text-decoration: none;
     font-size: medium;
@@ -88,6 +91,11 @@ img {
     
     .flex-container {
         flex-direction: column;
+    }
+    
+    .topnavigationbar a {
+        float: none;
+        width: 100%;
     }
     
     
