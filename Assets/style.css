@@ -13,7 +13,7 @@ body {
 
 header {
     padding: 15px;
-    background-color: rgb(93, 92, 92);
+    background-color: #5d5c61;
     color: whitesmoke;
 }
 
@@ -22,5 +22,12 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    
+}
+
+.topleft {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    font-size: 50px;
 }
