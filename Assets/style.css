@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    background-color: #5d5c61;
+    background-color:#5d5c61;
+    color: whitesmoke;
 }
 
 /* Make sure to add color to your text */
@@ -61,6 +62,14 @@ img {
     margin: auto;
     padding: 5px;
     border: white;
+}
+
+.project1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 5px;
 }
 
 .flex-container a {
