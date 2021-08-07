@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Make sure to add color to your text */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin: 10px;
+    
+}
+
+header {
+    padding: 15px;
+    background-color: grey
+}
