@@ -60,6 +60,8 @@ img {
 .flex-container {
     display: flex;
     margin: auto;
+    align-items: center;
+    justify-content: center;
     padding: 5px;
     border: white;
 }
@@ -76,4 +78,17 @@ img {
     width: auto;
     margin: 5px;
     line-height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    head,
+    body {
+        flex-direction: column;
+    }
+    
+    .flex-container {
+        flex-direction: column;
+    }
+    
+    
 }
