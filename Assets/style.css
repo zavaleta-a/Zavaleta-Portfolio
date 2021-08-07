@@ -4,26 +4,28 @@
     color: whitesmoke;
 }
 
-/* Make sure to add color to your text */
+/* Navigation bar */
 
 .topnavigationbar {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     color: whitesmoke;
     padding: 5px 15px;
     background-color: #557a95;
     overflow: hidden;
+    
 }
 
 .topnavigationbar a {
-    float: right;
-    display: block;
+    float:right;
+    display: block; 
     color: whitesmoke;
     text-align: center;
     padding: 5px;
     text-decoration: none;
     font-size: medium;
+    overflow: none;
 }   
 
 .topnavigationbar a:hover {
@@ -50,13 +52,17 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* Name */
 
 .topleft {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    top: 75px;
-    left: 50px;
+    top: 125px;
+    left: auto;
     font-size: 50px;
 }
 
@@ -67,7 +73,10 @@ img {
     justify-content: center;
     padding: 5px;
     border: white;
+
 }
+
+/* Project Placeholders */
 
 .project1 {
     display: flex;
@@ -81,6 +90,7 @@ img {
     width: auto;
     margin: 5px;
     line-height: auto;
+    size: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -94,9 +104,14 @@ img {
     }
     
     .topnavigationbar a {
-        float: none;
+        float: left;
         width: 100%;
     }
-    
+
+    .topleft {
+        font-size: 25px;
+        top: 104px;
+        left: 10px;
+    }
     
 }
