@@ -10,13 +10,17 @@
     text-align: right;
     color: whitesmoke;
     padding: 5px 15px;
-    background-color: #b1a296;
+    background-color: #557a95;
     overflow: hidden;
 }
 
 .topnavigationbar a {
     color: whitesmoke;
+    padding: 5px;
+    text-decoration: none;
+    font-size: medium;
 }   
+
 .topnavigationbar a:hover {
    background-color: white;
    color: black;
