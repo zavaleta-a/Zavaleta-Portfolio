@@ -1,117 +1,114 @@
 * {
-    box-sizing: border-box;
-    background-color:#5d5c61;
-    color: whitesmoke;
+  box-sizing: border-box;
+  background-color: #5d5c61;
+  color: whitesmoke;
 }
 
 /* Navigation bar */
 
 .topnavigationbar {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: whitesmoke;
-    padding: 5px 15px;
-    background-color: #557a95;
-    overflow: hidden;
-    
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+  padding: 5px 15px;
+  overflow: hidden;
 }
 
 .topnavigationbar a {
-    float:right;
-    display: block; 
-    color: whitesmoke;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-    font-size: medium;
-    overflow: none;
-}   
+  float: right;
+  display: block;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: medium;
+  overflow: none;
+}
 
 .topnavigationbar a:hover {
-   background-color: white;
-   color: black;
+  background-color: white;
+  color: black;
 }
-
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    margin: 10px;
-    
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  margin: 10px;
 }
 
-header {
-    padding: 15px;
-    background-color: #5d5c61;
-    color: whitesmoke;
-}
-
-img {
-    border-radius: 15px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#workSamples {
+  border-radius: 15px;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Name */
 
 .topleft {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    top: 125px;
-    left: auto;
-    font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 125px;
+  left: auto;
+  font-size: 50px;
+}
+
+/* Headshot */
+#headshot {
+  border-radius: 50%;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 .flex-container {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    border: white;
-
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: white;
 }
 
 /* Project Placeholders */
 
 .project1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 5px;
 }
 
 .flex-container a {
-    width: auto;
-    margin: 5px;
-    line-height: auto;
-    size: 100%;
+  width: auto;
+  margin: 5px;
+  line-height: auto;
+  size: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    head,
-    body {
-        flex-direction: column;
-    }
-    
-    .flex-container {
-        flex-direction: column;
-    }
-    
-    .topnavigationbar a {
-        float: left;
-        width: 100%;
-    }
+  head,
+  body {
+    flex-direction: column;
+  }
 
-    .topleft {
-        font-size: 25px;
-        top: 104px;
-        left: 10px;
-    }
-    
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .topnavigationbar a {
+    float: left;
+    width: 100%;
+  }
+
+  .topleft {
+    font-size: 25px;
+    top: 104px;
+    left: 10px;
+  }
 }

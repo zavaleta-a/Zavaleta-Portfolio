@@ -1,4 +1,3 @@
-
 <!-- Sections that need links are; about me, contact info, and samples of work.-->
 <!-- Creat nav links that take you to the corresponding section.-->
 <!-- When a link is clicked, the UI scrolls to the corresponding section. -->
@@ -8,82 +7,106 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/style.css" />
     <title>Zavaleta's Portfolio</title>
-    
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- Navbar -->
     <nav>
-        <div class="topnavigationbar">
-            <a href="#contact">Contact</a>
-            <a href="#worksamples">Work Samples</a>
-            <a href="#aboutme">About Me</a>
-        </div>
-    </nav>    
+      <div class="topnavigationbar">
+        <a href="#contact">Contact</a>
+        <a href="#worksamples">Work Samples</a>
+        <a href="#aboutme">About Me</a>
+      </div>
+    </nav>
+
+    <!-- Name Text -->
+    <div class="name">Alfredo Zavaleta</div>
 
     <!-- Headshot -->
     <section>
-        <div class="headshot">
-            <img src="Assets/CroppedPortfolioHeadshot.jpeg" alt="AlfredoZavaleta's headshot" width="auto" height="auto">
-            <div class="topleft">Alfredo Zavaleta</div>
-
-        </section>
-        
-
-    <section2> 
-        <h2 id="aboutme">About Me</h2>
-            <p>Insert text here.</p>          
-    </section2>
-
-    
-    <h2 id="worksamples">My Work</h2>
-        <!-- Make the samples into links that direct to samples -->
-        <ul>
-            <li> <a href="#project1">Project 1</a></li>
-            <li> <a href="#project2">Project 2</a></li>
-            <li> <a href="#project3">Project 3</a></li>
-            <li> <a href="#project4">Project 4</a></li>
-        </ul>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <section>
-        <div class="project1" id="project1">
-            <a href="https://via.placeholder.com/900x450.jpg/557a95/ffffff?text=Place+Holder+Project+1"><img src="https://via.placeholder.com/900x450.jpg/557a95/ffffff?text=Place+Holder+Project+1"></a>
-        </div>
-        
-        <div class="flex-container">
-            
-            <a id="project2" href="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+2"><img src="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+2"></a>
-            <a id="project3" href="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+3"><img src="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+3"></a>
-            <a id="project4" href="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+4"><img src="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+4"></a>
-        </div>
+      <img
+        id="headshot"
+        src="Assets/CroppedPortfolioHeadshot.jpeg"
+        alt="AlfredoZavaleta's headshot"
+        width="auto"
+        height="auto"
+      />
     </section>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- About Me -->
+    <section class="aboutMe">
+      <h2 id="aboutme">About Me</h2>
+      <p>Insert text here.</p>
+    </section>
+
+    <!-- Work Samples -->
+    <h2>My Work</h2>
+    <!-- Make the samples into links that direct to samples -->
+    <ul>
+      <li><a href="#project1">Project 1</a></li>
+      <li><a href="#project2">Project 2</a></li>
+      <li><a href="#project3">Project 3</a></li>
+      <li><a href="#project4">Project 4</a></li>
+    </ul>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section id="workSamples">
+      <div class="project1" id="project1">
+        <a
+          href="https://via.placeholder.com/900x450.jpg/557a95/ffffff?text=Place+Holder+Project+1"
+          ><img
+            src="https://via.placeholder.com/900x450.jpg/557a95/ffffff?text=Place+Holder+Project+1"
+        /></a>
+      </div>
+
+      <div class="flex-container">
+        <a
+          id="project2"
+          href="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+2"
+          ><img
+            src="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+2"
+        /></a>
+        <a
+          id="project3"
+          href="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+3"
+          ><img
+            src="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+3"
+        /></a>
+        <a
+          id="project4"
+          href="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+4"
+          ><img
+            src="https://via.placeholder.com/450x225.jpg/557a95/ffffff?text=Place+Holder+Project+4"
+        /></a>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
     <nav>
-        <h2 id="contact">Contact Me</h2>  
-            <ul>
-                <li>Mobile: <a href="# 555.555.1234">555.555.1234</a> </li> 
-                <li>Email: <a href="#contact@me.email">contact@me.email</a> </li> 
-                <li>LInked In: <a href="#linkedin.com/profile">linkedin.com/profile</a> </li> 
-            </ul>
-    </nav>    
-</body>
+      <h2 id="contact">Contact Me</h2>
+      <ul>
+        <li>Mobile: <a href="# 555.555.1234">555.555.1234</a></li>
+        <li>Email: <a href="#contact@me.email">contact@me.email</a></li>
+        <li>
+          LInked In: <a href="#linkedin.com/profile">linkedin.com/profile</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
