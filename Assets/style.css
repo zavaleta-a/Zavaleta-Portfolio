@@ -50,12 +50,12 @@ body {
 
 /* Name */
 
-.topleft {
+.name {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: absolute;
-  top: 125px;
+  top: 275px;
   left: auto;
-  font-size: 50px;
+  font-size: 1.5rem;
 }
 
 /* Headshot */
@@ -63,6 +63,13 @@ body {
   border-radius: 50%;
   max-width: 250px;
   max-height: 250px;
+}
+
+/* About Me */
+.aboutMe {
+  position: relative;
+  left: 220px;
+  top: -200px;
 }
 
 .flex-container {
