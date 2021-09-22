@@ -48,6 +48,12 @@ body {
   position: relative;
   left: 25%;
 }
+
+.workList {
+  position: relative;
+  left: 25%;
+}
+
 #workSamples {
   border-radius: 15px;
   max-width: -100px;
