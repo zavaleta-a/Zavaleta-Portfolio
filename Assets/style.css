@@ -1,7 +1,12 @@
 * {
   box-sizing: border-box;
-  background-color: #5d5c61;
+  background-color: black;
   color: whitesmoke;
+}
+
+h2 {
+  background-color: #941313;
+  width: 101px;
 }
 
 /* Navigation bar */
@@ -13,7 +18,7 @@
   color: whitesmoke;
   background-color: black;
   padding: 10px 0 10px 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .topnavigationbar a {
@@ -41,7 +46,7 @@ body {
 
 #workSamples {
   border-radius: 15px;
-  max-width: 500px;
+  max-width: -100px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -52,8 +57,8 @@ body {
 
 .name {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  position: absolute;
-  top: 275px;
+  position: relative;
+  top: 270px;
   left: auto;
   font-size: 1.5rem;
 }
@@ -87,8 +92,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
-  margin: 5px;
+  width: 100%;
+  margin: 0px;
 }
 
 .flex-container a {
@@ -96,6 +101,10 @@ body {
   margin: 5px;
   line-height: auto;
   size: 100%;
+}
+
+#contact {
+  width: 121px;
 }
 
 /* Responsive Design */
@@ -121,18 +130,28 @@ body {
   }
 }
 
-@media screen and (max width: 500px) {
+@media screen and (max-width: 480px) {
   head,
   body {
     flex-direction: column;
   }
+
   .flex-container {
     flex-direction: column;
   }
-/* Have navbar background color fill top of screen.*/
+
+  /* Have navbar background color fill top of screen.*/
   .topnavigationbar {
-    width:
+    text-align: center;
+    position: relative;
+    left: 65px;
+  }
+
+  .project1 {
+    position: relative;
   }
 }
-
-
+.flex-container {
+  align-items: center;
+  justify-content: center;
+}
