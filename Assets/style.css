@@ -44,11 +44,6 @@ body {
   margin: 10px;
 }
 
-.intro {
-  position: relative;
-  left: 25%;
-}
-
 .workList {
   position: relative;
   left: 25%;
@@ -63,13 +58,20 @@ body {
   margin-right: auto;
 }
 
+/* About Me and Headshot */
+
+.intro {
+  position: relative;
+  left: 25%;
+}
+
 /* Name */
 
 .name {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
   top: 280px;
-  left: 26%;
+  left: 25%;
   font-size: 1.5rem;
 }
 
@@ -115,6 +117,11 @@ body {
 
 #contact {
   width: 121px;
+}
+
+.contactMe {
+  position: relative;
+  left: 25%;
 }
 
 /* Responsive Design */
