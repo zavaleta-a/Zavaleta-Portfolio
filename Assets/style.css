@@ -12,7 +12,7 @@
   text-align: center;
   color: whitesmoke;
   background-color: black;
-  padding: 5px 15px;
+  padding: 10px 0 10px 0;
   overflow: hidden;
 }
 
@@ -98,6 +98,7 @@ body {
   size: 100%;
 }
 
+/* Responsive Design */
 @media screen and (max-width: 768px) {
   head,
   body {
@@ -119,3 +120,19 @@ body {
     left: 10px;
   }
 }
+
+@media screen and (max width: 500px) {
+  head,
+  body {
+    flex-direction: column;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+/* Have navbar background color fill top of screen.*/
+  .topnavigationbar {
+    width:
+  }
+}
+
+
