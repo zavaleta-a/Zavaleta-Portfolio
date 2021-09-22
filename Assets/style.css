@@ -44,6 +44,10 @@ body {
   margin: 10px;
 }
 
+.intro {
+  position: relative;
+  left: 25%;
+}
 #workSamples {
   border-radius: 15px;
   max-width: -100px;
@@ -58,8 +62,8 @@ body {
 .name {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
-  top: 270px;
-  left: auto;
+  top: 280px;
+  left: 26%;
   font-size: 1.5rem;
 }
 
