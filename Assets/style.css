@@ -87,6 +87,7 @@ body {
   position: relative;
   left: 220px;
   top: -200px;
+  width: 850px;
 }
 
 .flex-container {
@@ -109,7 +110,7 @@ body {
 }
 
 .flex-container a {
-  width:400px;
+  width: 400px;
   margin: 3px;
   line-height: auto;
   size: 100%;
