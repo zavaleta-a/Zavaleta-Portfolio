@@ -108,6 +108,24 @@ body {
   width: auto;
   left: 325px;
 }
+.title2 {
+  font-size: larger;
+  position: absolute;
+  left: 358px;
+  bottom: -700px;
+}
+
+.title3 {
+  font-size: larger;
+  position: absolute;
+  bottom: -700px;
+}
+
+.title4 {
+  font-size: xx-large;
+  position: absolute;
+  right: 460px;
+}
 
 .project1 {
   display: flex;
