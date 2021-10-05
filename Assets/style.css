@@ -118,15 +118,15 @@ body {
 .title2 {
   font-size: larger;
   position: absolute;
-  left: 565px;
-  bottom: -700px;
+  left: 365px;
+  bottom: -530px;
 }
 
 .title3 {
   font-size: larger;
   position: absolute;
-  bottom: -700px;
-  right: 820px;
+  bottom: -525px;
+  right: 420px;
 }
 
 /* Project Samples */
@@ -136,6 +136,8 @@ body {
   justify-content: center;
   width: 100%;
   margin: 0px;
+  position: relative;
+  bottom: 200px;
 }
 
 .flex-container a {
@@ -143,6 +145,8 @@ body {
   margin: 3px;
   line-height: auto;
   size: 100%;
+  position: relative;
+  bottom: 180px;
 }
 
 #contact {
@@ -152,6 +156,7 @@ body {
 .contactMe {
   position: relative;
   left: 25%;
+  bottom: 200px;
 }
 
 /* Responsive Design */
