@@ -99,8 +99,6 @@ body {
   border: white;
 }
 
-/* Project Samples */
-
 /* Project Titles */
 .title1 {
   font-size: 4rem;
@@ -111,7 +109,7 @@ body {
 .title2 {
   font-size: larger;
   position: absolute;
-  left: 358px;
+  left: 565px;
   bottom: -700px;
 }
 
@@ -119,14 +117,10 @@ body {
   font-size: larger;
   position: absolute;
   bottom: -700px;
+  right: 820px;
 }
 
-.title4 {
-  font-size: xx-large;
-  position: absolute;
-  right: 460px;
-}
-
+/* Project Samples */
 .project1 {
   display: flex;
   align-items: center;
