@@ -99,7 +99,15 @@ body {
   border: white;
 }
 
-/* Project Placeholders */
+/* Project Samples */
+
+/* Project Titles */
+.title1 {
+  font-size: 4rem;
+  position: absolute;
+  width: auto;
+  left: 325px;
+}
 
 .project1 {
   display: flex;
