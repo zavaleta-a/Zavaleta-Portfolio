@@ -71,7 +71,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
   top: 280px;
-  left: 25%;
+  left: 14%;
   font-size: 1.5rem;
 }
 
@@ -80,12 +80,14 @@ body {
   border-radius: 50%;
   max-width: 250px;
   max-height: 250px;
+  position: relative;
+  left: -220px;
 }
 
 /* About Me */
 .aboutMe {
   position: relative;
-  left: 220px;
+  left: 5px;
   top: -200px;
   width: 850px;
 }
@@ -97,6 +99,13 @@ body {
   justify-content: center;
   padding: 5px;
   border: white;
+}
+
+/* My Work List */
+.workList {
+  position: relative;
+  top: -135px;
+  left: 300px;
 }
 
 /* Project Titles */
